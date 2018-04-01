@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>dubbo-demo</groupId>
+  <artifactId>dubbo-customer</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>dubbo-customer</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+	<repositories>
+		<repository>
+			<id>mynexus</id>
+			<url>http://118.24.155.209:8081/repository/maven-central/</url>
+		</repository>
+	</repositories>
+
+ 
+
+  <dependencies>
+  	<dependency>
+	    <groupId>dubbo-demo</groupId>
+	    <artifactId>dubbo-api</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+	</dependency>
+  
+  
+	  <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter -->
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter</artifactId>
+	    <version>2.0.0.RELEASE</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-jetty -->
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-jetty</artifactId>
+	    <version>2.0.0.RELEASE</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-web</artifactId>
+	    <version>2.0.0.RELEASE</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/com.gitee.reger/spring-boot-starter-dubbo -->
+	<dependency>
+	    <groupId>com.gitee.reger</groupId>
+	    <artifactId>spring-boot-starter-dubbo</artifactId>
+	    <version>1.1.0</version>
+	</dependency>
+
+	
+  </dependencies>
+</project>
